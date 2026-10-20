@@ -32,5 +32,7 @@ public class fullNameParser {
             System.out.println("Middle name: (none)");
             System.out.println("Last name: " + lastName.trim());
         }
+
+        scan.close();
     }
 }
